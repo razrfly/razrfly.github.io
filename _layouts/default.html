@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+    <!-- Google font -->
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/cubeportfolio.min.css">
+    <link rel="stylesheet" href="assets/css/themes/1.css">
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+    <!-- Ion Icons -->
+    <link href="assets/css/screen.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/print.css" media="print" rel="stylesheet" type="text/css" />
+
+    <title>{{ page.title }}</title>
+  </head>
+
+  <body class="main">
+    {% include template-components.html %}
+
+    <div class="wrapper">
+      {% include nav.html %}
+      {% include header.html %}
+
+      {{ content }}
+
+      {% include footer.html %}
+    </div>
+
+    <script src="assets/js/modernizr.js"></script>
+    <script src="assets/vendor/jquery-2.2.1.min.js"></script>
+    <script src="assets/vendor/jquery.cubeportfolio.min.js"></script>
+    <script src="assets/vendor/jquery.inview.min.js"></script>
+    <script src="assets/vendor/jquery.matchHeight-min.js"></script>
+    <script src="assets/js/inview-control.js"></script>
+    <script src="assets/js/sliders.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

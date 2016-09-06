@@ -1,0 +1,20 @@
+_site/
+.sass-cache
+.jekyll-metadata
+
+# Ignore bundler config.
+/.bundle
+*.DS_Store
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+/public/uploads
+
+*.codekit
+
+*.dump
+
+# Ignore installed bower components
+vendor/assets/components/
+app/assets/components/

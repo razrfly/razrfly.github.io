@@ -1,0 +1,5 @@
+name: Razrfly
+# markdown: redcarpet
+highlighter: true
+permalink: pretty
+exclude: ['app','log','tmp']
