@@ -31,3 +31,32 @@ projects:
         text: 'development, design, ecommerce',
         img: '/assets/img/project-8.jpg' }
 
+services:
+    - { title: 'Rockstar Development™',
+        text: 'We help shape your business. We solve your problems. We develop solutions that you love and we know our craft',
+        img: '/assets/img/service-1.png' }
+
+    - { title: 'Web & Mobile Application Development',
+        text: "We're application architecture, design & development experts. We love well-written code, test driven development, playing with APIs and modern browsers.",
+        img: '/assets/img/service-2.png' }
+
+    - { title: 'We love design',
+        text: "While we're not a design agency we love design and employ a small design team as well as working with some of the best design companies.",
+        img: '/assets/img/service-3.png' }
+
+    - { title: 'Social & Event Driven Apps',
+        text: "We build socially rich & interactive applications which incorporate geolocational data in complex ways for websites and mobile devices.",
+        img: '/assets/img/service-4.png' }
+
+    - { title: 'Debunking SEO and other misused non-sense',
+        text: "Many of our clients have come to us after having had some of the worst experiences with SEO. We can help dispell some of the Myths.",
+        img: '/assets/img/service-5.png' }
+
+    - { title: 'Diverse Projects',
+        text: "We've consulted & developed for a wide range of organizations from NGOs, start-ups, finance, and an international music festival.",
+        img: '/assets/img/service-6.png' }
+
+    - { title: 'We ♥ Startups',
+        text: "Got funding and an idea? Let's be disruptive together. We've helped many startups in a variety of ways get their dream off the ground. Let us help yours.",
+        img: '/assets/img/service-7.png' }
+
