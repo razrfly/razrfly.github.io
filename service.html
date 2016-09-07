@@ -1,0 +1,30 @@
+---
+layout: default
+title: Service
+---
+
+<section>
+  <div class="container">
+    <div class="row">
+      {% for service in site.data.working.services %}
+        <div class="row" style="margin-top:40px !important;">
+          <div class="col-sm-4 service-pic ani_ fadeindown">
+            <div class="service-container">
+              <img src="{{ service.img }}" alt="">
+            </div>
+          </div>
+
+          <div class="col-sm-8">
+            <div class="service-container">
+              <div class="titles">
+                <h2>{{ service.title }}</h2>
+                <h4>{{ service.text }}</h4>
+              </div>
+            </div>
+          </div>
+          <div class="xs-spacer"></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
