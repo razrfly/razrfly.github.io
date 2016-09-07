@@ -7,3 +7,6 @@ header:
   Projects:
     main-header: 'Some of our works'
     sub-header: 'This is what we love'
+  Contact:
+    main-header: 'We would love to hear from you'
+    sub-header: 'Say hello!'
