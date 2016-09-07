@@ -3,17 +3,11 @@
   <div class="container">
     <nav>
       <ul>
-        <li class="parent_1">
-          <a href="#">Service</a>
-        </li>
-
-        <li class="parent_1">
-          <a href="#">Projects</a>
-        </li>
-
-        <li class="parent_1">
-          <a href="#">Contact</a>
-        </li>
+        {% for item in site.data.nav.main %}
+          <li>
+              <a href="{{ item.url }}">{{ item.text }}</a>
+          </li>
+        {% endfor %}
       </ul>
 
       <a href="#nav-button" class="nav-btn">
