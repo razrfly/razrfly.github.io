@@ -3,6 +3,33 @@ layout: default
 title: Welcome
 ---
 
+<header id="header_1"
+  style="background:linear-gradient(-180deg, #000, #0082f0);">
+    <div class="shader-gradient"></div>
+    <div class="caption ani_ fadeinup">
+        <h1>{{ site.data.headings.header[page.title] }}</h1>
+        <h3>Be part of a revolution</h3>
+
+        {% if page.title == 'Welcome' %}
+          <a href="/service" class="btn alt">Get started!</a>
+        {% endif %}
+    </div>
+    <i class="ion-ios-arrow-down arrow-down"></i>
+</header>
+
+<section id="logo-strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 logo"><img src="assets/img/logo-01.svg" alt=""></div>
+      <div class="col-sm-2 logo"><img src="assets/img/logo-02.svg" alt=""></div>
+      <div class="col-sm-2 logo"><img src="assets/img/logo-03.svg" alt=""></div>
+      <div class="col-sm-2 logo"><img src="assets/img/logo-04.svg" alt=""></div>
+      <div class="col-sm-2 logo"><img src="assets/img/logo-05.svg" alt=""></div>
+      <div class="col-sm-2 logo"><img src="assets/img/logo-06.svg" alt=""></div>
+    </div>
+  </div>
+</section>
+
 <section class="white">
   <div class="container">
     <div class="row">
@@ -25,19 +52,6 @@ title: Welcome
             </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section id="logo-strip">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2 logo"><img src="assets/img/logo-01.svg" alt=""></div>
-      <div class="col-sm-2 logo"><img src="assets/img/logo-02.svg" alt=""></div>
-      <div class="col-sm-2 logo"><img src="assets/img/logo-03.svg" alt=""></div>
-      <div class="col-sm-2 logo"><img src="assets/img/logo-04.svg" alt=""></div>
-      <div class="col-sm-2 logo"><img src="assets/img/logo-05.svg" alt=""></div>
-      <div class="col-sm-2 logo"><img src="assets/img/logo-06.svg" alt=""></div>
     </div>
   </div>
 </section>
