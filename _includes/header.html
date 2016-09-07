@@ -1,16 +1,20 @@
 <!-- Header -->
-<header id="header_subpage1" style="background-image:url(assets/img/boxed-bg.jpg)">
+<header id="header_subpage1"
+  style="background-image:url(
+    {{ site.data.visual.header_background }}
+    )">
+
   <div class="shader"></div>
 
   <div class="caption ani_ fadeinup">
       <div class="container">
         <h1>
-          We make web & mobile apps..
+          {{ site.data.headings.header[page.title] }}
         </h1>
 
-        <a href="/service" class="btn alt">Get started!</a>
+        {% if page.title == 'Welcome' %}
+          <a href="/service" class="btn alt">Get started!</a>
+        {% endif %}
       </div>
   </div>
-
-  <i class="ion-ios-arrow-down arrow-down"></i>
 </header>
