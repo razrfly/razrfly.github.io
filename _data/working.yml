@@ -1,0 +1,32 @@
+projects:
+    - { title: 'Nanna Key',
+        text: 'logo design, web site development, email marketing, ecommerce',
+        img: '/assets/img/project-1.jpg' }
+
+    - { title: 'Question One',
+        text: 'design, development, rebranding',
+        img: '/assets/img/project-2.jpg' }
+
+    - { title: 'Wombie.com',
+        text: 'development, design',
+        img: '/assets/img/project-3.jpg' }
+
+    - { title: 'The Unsound Music Festival',
+        text: 'development, consulting',
+        img: '/assets/img/project-4.jpg' }
+
+    - { title: 'ToneShared',
+        text: 'development, consulting',
+        img: '/assets/img/project-5.jpg' }
+
+    - { title: 'Whynatte Latte',
+        text: 'development, facebook',
+        img: '/assets/img/project-6.jpg' }
+
+    - { title: 'The Bank of Commerce',
+        text: 'development, consulting',
+        img: '/assets/img/project-7.jpg' }
+
+    - { title: 'Littlefield Ranch',
+        text: 'development, design, ecommerce',
+        img: '/assets/img/project-8.jpg' }
