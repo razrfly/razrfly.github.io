@@ -32,7 +32,10 @@
 
     <div class="wrapper">
       {% include nav.html %}
-      {% include header.html %}
+
+      {% if page.title != 'Contact' %}
+        {% include header.html %}
+      {% endif %}
 
       {{ content }}
 
