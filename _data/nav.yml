@@ -1,0 +1,18 @@
+# Navbar navigation
+
+main:
+    - { url: '/service', text: 'Service' }
+    - { url: '/projects', text: 'Projects' }
+    - { url: '/contact', text: 'Contact' }
+    - { url: '/jobs', text: 'Jobs' }
+
+legal:
+    - { url: '/terms', text: 'Terms' }
+    - { url: '/privacy', text: 'Privacy' }
+    - { url: '/copyright', text: 'Copyright' }
+
+social:
+    - { url: '', icon: 'ion-social-facebook' }
+    - { url: '', icon: 'ion-social-twitter' }
+    - { url: '', icon: 'ion-social-linkedin' }
+    - { url: '', icon: 'ion-social-googleplus' }
