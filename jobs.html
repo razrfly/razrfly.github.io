@@ -1,0 +1,72 @@
+---
+layout: default
+title: Jobs
+---
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 ani_ fadeinup">
+        <h2>{{ site.data.jobs.mid.title }}</h2>
+        <p>Currently we are looking for a Ruby on Rails Developer</p>
+        <h3>What you need in this position:</h3>
+
+        <ul>
+          {% for item in site.data.jobs.mid.requirements %}
+          <li>
+            {{ item.text }}
+          </li>
+          {% endfor %}
+        </ul>
+
+        <h3>What we offer you:</h3>
+
+        <ul>
+          {% for item in site.data.jobs.mid.offer %}
+          <li>
+              {{ item.text }}
+          </li>
+          {% endfor %}
+        </ul>
+
+        <p>
+          <b>If you are interested please send your CV/Github/Portfolio to jobs@razrfly.com</b>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 ani_ fadeinup">
+        <h2>{{ site.data.jobs.junior.title }}</h2>
+        <p>Currently we are looking for a Ruby on Rails Developer</p>
+        <h3>What you need in this position:</h3>
+
+        <ul>
+          {% for item in site.data.jobs.junior.requirements %}
+          <li>
+            {{ item.text }}
+          </li>
+          {% endfor %}
+        </ul>
+
+        <h3>What we offer you:</h3>
+
+        <ul>
+          {% for item in site.data.jobs.junior.offer %}
+          <li>
+            {{ item.text }}
+          </li>
+          {% endfor %}
+        </ul>
+
+        <p>
+          <b>If you are interested please send your CV/Github/Portfolio to jobs@razrfly.com</b>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

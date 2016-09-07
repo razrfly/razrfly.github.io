@@ -1,0 +1,28 @@
+mid:
+  title: 'Ruby on Rails Developer'
+  requirements:
+    - { text: 'Significant experience in Ruby and Rails' }
+    - { text: 'Life revolving around Git & Github' }
+    - { text: 'SQL (PostgreSQL a plus)' }
+    - { text: 'CSS/LESS/JS/Coffeescript skills a plus' }
+    - { text: 'Ability to work with other developers and testers' }
+    - { text: 'Decent English' }
+  offer:
+    - { text: 'Working on exciting projects, including an international music festival' }
+    - { text: 'Flexible hours & ability to work from home' }
+    - { text: 'Opportunity to grow your skills with the latest technologies' }
+    - { text: 'Spend 20% of your time on OpenSource and/or Artistic projects of your choosing' }
+    - { text: 'Potential to learn from other professional team members' }
+
+junior:
+  title: 'Junior Ruby on Rails Developer'
+  requirements:
+    - { text: 'Significant experience in Ruby and Rails' }
+    - { text: 'Life revolving around Git & Github' }
+    - { text: 'CSS/LESS/JS/Coffeescript skills a plus' }
+    - { text: 'Ability to work with other developers and testers' }
+    - { text: 'Decent English' }
+  offer:
+    - { text: 'Working on exciting projects' }
+    - { text: 'Flexible hours & ability to work from home' }
+
