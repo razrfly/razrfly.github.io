@@ -3,12 +3,11 @@ layout: default
 title: Welcome
 ---
 
-<header id="header_1"
-  style="background:linear-gradient(-180deg, #000, #0082f0);">
+<header id="header_1">
     <div class="shader-gradient"></div>
     <div class="caption ani_ fadeinup">
-        <h1>{{ site.data.headings.header[page.title] }}</h1>
-        <h3>Be part of a revolution</h3>
+        <h1>{{ site.data.headings.header[page.title]['main-header'] }}</h1>
+        <h3>{{ site.data.headings.header[page.title]['sub-header'] }}</h3>
 
         {% if page.title == 'Welcome' %}
           <a href="/service" class="btn alt">Get started!</a>

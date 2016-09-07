@@ -1,9 +1,14 @@
 #Headers for each site
 
 header:
-  Welcome: 'We make web & mobile apps'
-  Service: 'Mainly producing works in...'
-  Jobs: 'We are hiring!'
+  Welcome:
+    main-header: 'We make web & mobile apps'
+    sub-header: 'Be part of a revolution'
+  Service:
+    main-header: 'What we do'
+    sub-header: 'Mainly producing works in...'
+  Jobs:
+    main-header: 'We are hiring!'
   Projects:
     main-header: 'Some of our works'
     sub-header: 'This is what we love'
