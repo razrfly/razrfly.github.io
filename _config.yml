@@ -1,5 +1,5 @@
 name: Razrfly
 # markdown: redcarpet
-highlighter: true
+highlighter: rouge
 permalink: pretty
 exclude: ['app','log','tmp']
